@@ -208,5 +208,5 @@ exec --no-startup-id picom --config ~/.config/picom/picom.conf
 exec_always --no-startup-id pkill xfce4-panel
 exec_always --no-startup-id ~/.config/polybar/dualscreen_autoset.sh
 exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec_always --no-startup-id nitrogen restore &
-exec_always --no-startup-id xflux -z 94024
+exec_always --no-startup-id ~/.config/nitrogen/dual_monitor_script.sh -r
+exec_always --no-startup-id xflux -z 92122
